@@ -59,7 +59,6 @@ public class CCTGameMain extends JFrame implements ActionListener {
                 return true;
             }
         }
-        // check diagonals
         symbol = buttons[1][1].getText();
         if (!symbol.isEmpty() && ((buttons[0][0].getText().equals(symbol) && buttons[2][2].getText().equals(symbol)) ||
                 (buttons[0][2].getText().equals(symbol) && buttons[2][0].getText().equals(symbol)))) {
